@@ -190,7 +190,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					success: function(html){
 						if(html){
 							i+=1;
-							var htm="<div id='postswrapper"+i+"' class='common'><h1>Page "+i+"<h1><br>"+html+"<div class='pos'></div></div>";
+							var htm="<div id='postswrapper"+i+"' class='common'><h1>Page "+i+"</h1><br>"+html+"<div class='pos'></div></div>";
 							$( "#wrapper" ).append( htm );
 // 							var id="#postswrapper"+(i+1);
 							$('div#loadmoreajaxloader').hide();
